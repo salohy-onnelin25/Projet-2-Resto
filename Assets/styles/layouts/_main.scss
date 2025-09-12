@@ -7,21 +7,26 @@ main {
             justify-content: center;
             align-items: center;
             .main-top10 {
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                flex-direction: column;
                 margin: 10px;
                 border: 1px dashed $brown;
                 text-align: center;
-                gap: 100px;
-                .main-top14{
+                gap: 20px;
+                padding: 20px;
+                .main-top14 {
                     align-items: center;
                     display: flex;
                     justify-content: center;
                     align-items: center;
-                    .circle{
+                    .circle {
                         width: 120px;
                         height: 120px;
                         border-radius: 50%;
                         overflow: hidden;
-                        background: url(../imgs/2b5c3c11-f7e4-470a-8f5c-bf86244483a5.png)center/cover;
+                        background: url(../imgs/2b5c3c11-f7e4-470a-8f5c-bf86244483a5.png) center/cover;
                         border: 1px dashed $brown;
                     }
                 }
