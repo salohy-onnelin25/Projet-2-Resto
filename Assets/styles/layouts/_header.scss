@@ -1,0 +1,53 @@
+header {
+    background: url(../imgs/bg-slider-06.jpg) center/cover;
+    height: 100vh;
+    .header-top {
+        background: $black1;
+        position: fixed;
+        width: 80%;
+        top: 0;
+        left: 50%;
+        transform: translateX(-50%);
+        z-index: 1000;
+        padding: 20px 0;
+        display: flex;
+        justify-content: space-between;
+        h3 {
+            color: $white;
+            font-family: $font2;
+            font-size: 1.2rem;
+        }
+        ul {
+            display: flex;
+            gap: 30px;
+        }
+    }
+    .header-bottom {
+        color: $white;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        text-align: center;
+        align-items: center;
+        height: 100vh;
+        h3 {
+            font-family: $font2;
+            font-size: 1.5rem;
+            color: $brown;
+        }
+        h4 {
+            font-family: $font1;
+            font-size: 5rem;
+        }
+        p{
+            font-weight:bold ;
+            font-size: 30px;
+        }
+        .header-bottom2{
+            height: 50px;
+            width: 50px;
+            background: url(../imgs/ic-plate-big.png);
+            margin: 50px 0;
+        }
+    }
+}

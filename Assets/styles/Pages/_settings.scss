@@ -1,0 +1,24 @@
+@font-face {
+    font-family: "Allura" ;
+    src: url(../../fonts/Allura-Regular.ttf) format();
+}
+@font-face {
+    font-family: "Montserrat";
+    src: url(../../fonts/Montserrat-VariableFont_wght.ttf) format();
+}
+$font1: Montserrat, sans-serif;
+$font2: Allura, serif;
+$black: black;
+$black1:rgb(24, 23, 23);
+$white: white;
+$brown: rgb(175, 9, 9);
+*{
+ margin: 0;
+ padding: 0;
+ list-style: none;
+ box-sizing: border-box;
+}
+a{
+    text-decoration: none;
+    color: $white ;
+}

@@ -1,0 +1,36 @@
+main {
+    .main-top {
+        display: grid;
+        grid-template-columns: 50% 50%;
+        .main-top1 {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            .main-top10 {
+                margin: 10px;
+                border: 1px dashed $brown;
+                text-align: center;
+                gap: 100px;
+                .main-top14{
+                    align-items: center;
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    .circle{
+                        width: 120px;
+                        height: 120px;
+                        border-radius: 50%;
+                        overflow: hidden;
+                        background: url(../imgs/2b5c3c11-f7e4-470a-8f5c-bf86244483a5.png)center/cover;
+                        border: 1px dashed $brown;
+                    }
+                }
+            }
+        }
+        .main-top2 {
+            height: 400px;
+            width: 100%;
+            background: url(../imgs/dish-gallery-06.jpg) center/ cover;
+        }
+    }
+}
