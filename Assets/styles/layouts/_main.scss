@@ -6,6 +6,15 @@ main {
             display: flex;
             justify-content: center;
             align-items: center;
+            h3 {
+                font-family: $font2;
+                font-size: 1.2rem;
+            }
+            h4 {
+                font-family: $font1;
+                font-weight: bolder;
+                font-size: 1.5rem;
+            }
             .main-top10 {
                 display: flex;
                 align-items: center;
@@ -14,9 +23,9 @@ main {
                 margin: 10px;
                 border: 1px dashed $brown;
                 text-align: center;
-                gap: 20px;
-                padding: 20px;
+                padding: 30px;
                 .main-top14 {
+                    margin-top: 10px;
                     align-items: center;
                     display: flex;
                     justify-content: center;
@@ -31,11 +40,154 @@ main {
                     }
                 }
             }
+            .main-top12 {
+                height: 50px;
+                width: 50px;
+                background: url(../imgs/ic-plate.png) center/cover;
+            }
         }
         .main-top2 {
             height: 400px;
             width: 100%;
             background: url(../imgs/dish-gallery-06.jpg) center/ cover;
+        }
+    }
+    .main-center {
+        .main-center1 {
+            background-color: $black2;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            .main-center10 {
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                flex-direction: column;
+                gap: 20px;
+                margin: 50px 0 200px 0;
+            }
+            .main-center11 {
+                h3 {
+                    font-family: $font2;
+                    font-size: 1.5rem;
+                    color: $brown;
+                }
+            }
+            .main-center12 {
+                height: 50px;
+                width: 50px;
+                background: url(../imgs/ic-plate.png) center/cover;
+            }
+            .main-center13 {
+                ul {
+                    display: flex;
+                    gap: 20px;
+                }
+            }
+        }
+        .main-center2 {
+            height: 700px;
+            width: 100%;
+            background: url(../imgs/bg-menu-01.jpg) center/cover;
+        }
+        .main-center3 {
+            background-color: $black2;
+            height: 700px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+
+            .main-center30 {
+                width: 70%;
+                display: grid;
+                grid-template-columns: 30% 70%;
+
+                .main-center31 {
+                    display: flex;
+                    flex-direction: column;
+                    background: $black;
+                    text-align: center;
+                    padding: 10px;
+                    .main-center310 {
+                        border: 1px dashed $white;
+                        padding: 40px;
+                        height: 400px;
+                        display: flex;
+                        justify-content: center;
+                        align-items: center;
+                        flex-direction: column;
+                        gap: 10px;
+                        .main-center312 {
+                            height: 50px;
+                            width: 50px;
+                            background: url(../imgs/ic-plate.png) center/cover;
+                        }
+                    }
+                    h3 {
+                        color: $brown;
+                    }
+
+                    h4,
+                    p {
+                        color: $white;
+                    }
+                }
+                .main-center32 {
+                    background: $white;
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    flex-direction: column;
+                    .main-center321 {
+                        display: flex;
+                        flex-direction: column;
+                        gap: 20px;
+                        .main-center3211 {
+                            text-align: center;
+                            h3 {
+                                color: $brown;
+                                font-family: $font2;
+                            }
+                        }
+                        .main-center3212 {
+                            height: 50px;
+                            width: 50px;
+                            background: url(../imgs/ic-plate.png) center/cover;
+                            margin: 0 auto;
+                        }
+                        .main-center3213 {
+                            display: flex;
+                            flex-direction: row;
+                            align-items: center;
+                            gap: 10px;
+                            select {
+                                border: none;
+                                border-bottom: 1px solid $black;
+                            }
+                            input {
+                                flex: 1;
+                                border: none;
+                                border-bottom: 1px solid $black;
+                                padding: 5px;
+                            }
+                            label {
+                                width: 100%;
+                            }
+                            .main-center32131 {
+                            }
+                        }
+                        .main-center3214 {
+                            text-align: center;
+                            button {
+                                padding: 20px 50px;
+                                background: $black;
+                                border-radius: 10px;
+                            }
+                        }
+                    }
+                }
+            }
         }
     }
 }
