@@ -40,12 +40,16 @@ header .header-top {
       -ms-flex-pack: justify;
           justify-content: space-between;
 }
-@media (max-width: 840px) {
-  header .header-top {
-    width: 100%;
-  }
-}
 @media (max-width: 1030px) {
+  header .header-top {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: space-evenly;
+        -ms-flex-pack: space-evenly;
+            justify-content: space-evenly;
+    width: 50%;
+  }
   header .header-top .header-top2 {
     display: none;
   }
@@ -60,11 +64,6 @@ header .header-top ul {
   display: -ms-flexbox;
   display: flex;
   gap: 30px;
-}
-@media (max-width: 640px) {
-  header .header-top ul {
-    gap: 10px;
-  }
 }
 header .header-bottom {
   color: white;

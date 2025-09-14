@@ -12,11 +12,12 @@ header {
         padding: 20px;
         display: flex;
         justify-content: space-between;
-        @media (max-width: 840px){
-            width: 100%;
-        }
+        
        
         @media (max-width: 1030px) {
+            display: flex;
+            justify-content: space-evenly;
+            width: 50%;
             .header-top2{
                 display: none;
             }
@@ -30,9 +31,6 @@ header {
         ul {
             display: flex;
             gap: 30px;
-            @media (max-width: 640px) {
-                gap: 10px;
-            }
         }
     }
     .header-bottom {
