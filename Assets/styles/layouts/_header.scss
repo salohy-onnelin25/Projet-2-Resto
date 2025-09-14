@@ -12,14 +12,27 @@ header {
         padding: 20px;
         display: flex;
         justify-content: space-between;
-        h3 {
+        @media (max-width: 840px){
+            width: 100%;
+        }
+       
+        @media (max-width: 1030px) {
+            .header-top2{
+                display: none;
+            }
+        }
+        h1 {
             color: $white;
             font-family: $font2;
             font-size: 1.2rem;
         }
+
         ul {
             display: flex;
             gap: 30px;
+            @media (max-width: 640px) {
+                gap: 10px;
+            }
         }
     }
     .header-bottom {
@@ -39,11 +52,11 @@ header {
             font-family: $font1;
             font-size: 5rem;
         }
-        p{
-            font-weight:bold ;
+        p {
+            font-weight: bold;
             font-size: 30px;
         }
-        .header-bottom2{
+        .header-bottom2 {
             height: 50px;
             width: 50px;
             background: url(../imgs/ic-plate-big.png);

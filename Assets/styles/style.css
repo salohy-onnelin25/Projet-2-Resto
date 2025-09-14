@@ -40,7 +40,17 @@ header .header-top {
       -ms-flex-pack: justify;
           justify-content: space-between;
 }
-header .header-top h3 {
+@media (max-width: 840px) {
+  header .header-top {
+    width: 100%;
+  }
+}
+@media (max-width: 1030px) {
+  header .header-top .header-top2 {
+    display: none;
+  }
+}
+header .header-top h1 {
   color: white;
   font-family: Allura, serif;
   font-size: 1.2rem;
@@ -50,6 +60,11 @@ header .header-top ul {
   display: -ms-flexbox;
   display: flex;
   gap: 30px;
+}
+@media (max-width: 640px) {
+  header .header-top ul {
+    gap: 10px;
+  }
 }
 header .header-bottom {
   color: white;
@@ -92,6 +107,13 @@ header .header-bottom .header-bottom2 {
 main .main-top {
   display: grid;
   grid-template-columns: 50% 50%;
+}
+@media (max-width: 1020px) {
+  main .main-top {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+  }
 }
 main .main-top .main-top1 {
   display: -webkit-box;
@@ -159,9 +181,14 @@ main .main-top .main-top1 .main-top12 {
   background: url(../imgs/ic-plate.png) center/cover;
 }
 main .main-top .main-top2 {
-  height: 400px;
+  height: 100%;
   width: 100%;
   background: url(../imgs/dish-gallery-06.jpg) center/cover;
+}
+@media (max-width: 1020px) {
+  main .main-top .main-top2 {
+    display: none;
+  }
 }
 main .main-center .main-center1 {
   background-color: rgb(39, 38, 38);
@@ -834,6 +861,11 @@ footer .footer-left {
       -ms-flex-align: center;
           align-items: center;
   padding: 0 40px;
+}
+@media (max-width: 1140px) {
+  footer .footer-left {
+    display: none;
+  }
 }
 footer .footer-left .footer-left0 {
   display: -webkit-box;

@@ -9,6 +9,9 @@ footer {
         flex-direction: row;
         align-items: center;
         padding: 0 40px;
+        @media (max-width: 1140px){
+            display: none;
+        }
         .footer-left0 {
             display: flex;
             flex-direction: column;
@@ -31,42 +34,41 @@ footer {
         flex-direction: row;
         align-items: center;
         padding: 0 40px;
-        .footer-right0{
+        .footer-right0 {
             width: 100%;
-            .footer-right01{
-                
-                form{
+            .footer-right01 {
+                form {
                     display: grid;
                     gap: 20px;
-                    label{
+                    label {
                         font-size: 1.5rem;
                         color: $white;
                     }
-                    input{
+                    input {
                         padding: 10px;
                         width: 50%;
                         background: none;
                         border-radius: 5px;
                     }
-                    button{
+                    button {
                         width: 20%;
                         padding: 10px;
                         border-radius: 5px;
                     }
                 }
             }
-            .footer-right02{
+            .footer-right02 {
                 display: flex;
                 margin-top: 40px;
                 gap: 20px;
-                .footer-right021{
+                .footer-right021 {
                     color: $white;
                 }
-                .footer-right022{
-                    ul{
+                .footer-right022 {
+                    ul {
                         display: flex;
                         gap: 40px;
-                        i{
+                        i {
                             font-size: 40px;
                         }
                     }

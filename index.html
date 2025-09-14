@@ -3,7 +3,52 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Projet 3 Restaurant</title>
+    <title>
+      Le Resto | Restaurant Gastronomique & Réservation à Madagascar
+    </title>
+
+    <meta
+      name="description"
+      content="Découvrez Le Resto, restaurant gastronomique à Madagascar. Cuisine moderne avec des ingrédients frais, menu varié et réservation en ligne facile."
+    />
+
+    <link rel="canonical" href="https://www.tonsite.com/" />
+
+    <meta name="robots" content="index, follow" />
+
+    <meta
+      property="og:title"
+      content="Le Resto | Restaurant Gastronomique Madagascar"
+    />
+    <meta
+      property="og:description"
+      content="Vivez une expérience culinaire unique au Resto. Réservez votre table en ligne et dégustez des plats gastronomiques préparés avec des ingrédients frais."
+    />
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://www.tonsite.com/" />
+    <meta
+      property="og:image"
+      content="https://www.tonsite.com/Assets/imgs/preview-restaurant.jpg"
+    />
+
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta
+      name="twitter:title"
+      content="Le Resto | Restaurant Gastronomique Madagascar"
+    />
+    <meta
+      name="twitter:description"
+      content="Réservez en ligne et découvrez une cuisine moderne à Madagascar avec des plats préparés à base d'ingrédients frais."
+    />
+    <meta
+      name="twitter:image"
+      content="https://www.tonsite.com/Assets/imgs/preview-restaurant.jpg"
+    />
+
+    <meta
+      name="keywords"
+      content="restaurant Madagascar, gastronomie, réservation restaurant, cuisine moderne, repas gastronomique, dîner romantique, menu varié"
+    />
 
     <link
       rel="stylesheet"
@@ -18,42 +63,57 @@
       href="./Assets/imgs/icon/one-continuous-line-drawing-of-knife-and-fork-with-ribbon-for-restaurant-logo-emblem-luxury-cafe-shop-logotype-template-concept-modern-single-line-draw-design-graphic-illustration-png.webp"
     />
 
+    <meta name="author" content="Le Resto" />
+    <meta name="theme-color" content="#a83232" />
+
     <link rel="stylesheet" href="./Assets/styles/style.css" />
   </head>
   <body>
     <header>
       <section class="header-top">
         <div class="header-top1">
-          <h3>Resto</h3>
+          <h1>Resto</h1>
         </div>
         <div class="header-top2">
-          <nav>
+          <nav aria-label="Navigation pricipale">
             <ul>
-              <li><a href="#">HOME</a></li>
-              <li><a href="#">RESERVATIONS</a></li>
-              <li><a href="#">MENU</a></li>
-              <li><a href="#">BLOG</a></li>
-              <li><a href="#">PAGES</a></li>
-              <li><a href="#">SHOP</a></li>
-              <li><a href="#">CONTACT</a></li>
+              <li><a href="#home">HOME</a></li>
+              <li><a href="#reservation">RESERVATIONS</a></li>
+              <li><a href="#menu">MENU</a></li>
+              <li><a href="#blog">BLOG</a></li>
+              <li><a href="#pages">PAGES</a></li>
+              <li><a href="#shop">SHOP</a></li>
+              <li><a href="#conatact">CONTACT</a></li>
             </ul>
           </nav>
         </div>
         <div class="header-top3">
           <ul>
             <li>
-              <a href="#" target="_blank"><i class="fab fa-facebook"></i></a>
+              <a
+                href="https://facebook.com"
+                target="_blank"
+                aria-label="facebook"
+                ><i class="fab fa-facebook"></i
+              ></a>
             </li>
             <li>
-              <a href="#" target="_blank"><i class="fab fa-twitter"></i></a>
+              <a href="https://twitter.com" target="_blank" aria-label="Twitter"
+                ><i class="fab fa-twitter"></i
+              ></a>
             </li>
             <li>
-              <a href="#" target="_blank"><i class="fab fa-instagram"></i></a>
+              <a
+                href="https://instagram.com"
+                target="_blank"
+                aria-label="Instagram"
+                ><i class="fab fa-instagram"></i
+              ></a>
             </li>
           </ul>
         </div>
       </section>
-      <section class="header-bottom">
+      <section class="header-bottom" id="home">
         <div class="header-bottom1">
           <h3>Bienvenue chez</h3>
           <h4>LE RESTO</h4>
@@ -65,7 +125,7 @@
       </section>
     </header>
     <main>
-      <section class="main-top">
+      <section class="main-top" id="menu">
         <div class="main-top1">
           <div class="main-top10">
             <div class="main-top11">
@@ -92,7 +152,7 @@
         </div>
         <div class="main-top2"></div>
       </section>
-      <section class="main-center">
+      <section class="main-center" id="reservation">
         <div class="main-center1">
           <div class="main-center10">
             <div class="main-center11">
@@ -270,7 +330,7 @@
                 <div class="main-center3212"></div>
                 <div class="main-center3213">
                   <div class="main-center32131">
-                    <form action="#">
+                    <form action="#" method="post">
                       <select id="gender" name="gender" required>
                         <option value="">-- Peopple --</option>
                         <option value="homme">Homme</option>
@@ -294,7 +354,7 @@
                         type="tel"
                         id="phone"
                         name="phone"
-                        placeholder="+261 34 12 345 67"
+                        placeholder="+261 00 00 000 00"
                         pattern="[0-9+ ]{8,15}"
                         required
                       />
@@ -333,16 +393,16 @@
           <div class="main-center5-0">
             <div class="main-center5-01">
               <p>
-              "Je suis un jeune développeur web passionné, qui a commencé par
-              explorer les bases du HTML et du CSS pour donner vie à mes
-              premières maquettes. Petit à petit, j’ai découvert la puissance de
-              Flexbox, Grid et le responsive design. J’expérimente aussi avec
-              Sass pour structurer mes styles de manière plus professionnelle.
-              Je construis des projets concrets, j’apprends à gérer mon code
-              avec GitHub, et chaque jour je progresse vers mon objectif :
-              devenir un développeur web capable de créer des sites modernes,
-              clairs et efficaces".
-            </p>
+                "Je suis un jeune développeur web passionné, qui a commencé par
+                explorer les bases du HTML et du CSS pour donner vie à mes
+                premières maquettes. Petit à petit, j’ai découvert la puissance
+                de Flexbox, Grid et le responsive design. J’expérimente aussi
+                avec Sass pour structurer mes styles de manière plus
+                professionnelle. Je construis des projets concrets, j’apprends à
+                gérer mon code avec GitHub, et chaque jour je progresse vers mon
+                objectif : devenir un développeur web capable de créer des sites
+                modernes, clairs et efficaces".
+              </p>
             </div>
             <div class="main-center5-02">
               <h3>SALOHY Onnelin</h3>
@@ -459,22 +519,22 @@
               <nav>
                 <ul>
                   <li>
-                    <a href="#" target="_blank"
+                    <a href="https://facebook.com" target="_blank"
                       ><i class="fab fa-facebook"></i
                     ></a>
                   </li>
                   <li>
-                    <a href="#" target="_blank"
+                    <a href="https://twitter.com" target="_blank"
                       ><i class="fab fa-twitter"></i
                     ></a>
                   </li>
                   <li>
-                    <a href="#" target="_blank"
+                    <a href="https://instagram.com" target="_blank"
                       ><i class="fab fa-instagram"></i
                     ></a>
                   </li>
                   <li>
-                    <a href="#" target="_blank"
+                    <a href="pinterest.com" target="_blank"
                       ><i class="fa-brands fa-pinterest"></i
                     ></a>
                   </li>
