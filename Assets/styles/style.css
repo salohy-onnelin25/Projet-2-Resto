@@ -48,7 +48,6 @@ header .header-top {
     -webkit-box-pack: space-evenly;
         -ms-flex-pack: space-evenly;
             justify-content: space-evenly;
-    width: 50%;
   }
   header .header-top .header-top2 {
     display: none;
