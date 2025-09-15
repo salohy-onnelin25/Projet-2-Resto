@@ -826,6 +826,11 @@ main .main-center .main-center5- {
     padding: 10px;
   }
 }
+@media (max-width: 780px) and (max-width: 1400px) and (max-width: 550px) {
+  main .main-center .main-center5- {
+    height: 480px;
+  }
+}
 @media (max-width: 1730px) {
   main .main-center .main-center5- {
     bottom: -4000px;
@@ -839,11 +844,6 @@ main .main-center .main-center5- {
 @media (max-width: 1730px) and (max-width: 1300px) and (max-width: 900px) {
   main .main-center .main-center5- {
     bottom: -4350px;
-  }
-}
-@media (max-width: 1730px) and (max-width: 1300px) and (max-width: 900px) and (max-width: 550px) {
-  main .main-center .main-center5- {
-    bottom: -4450px;
   }
 }
 @media (max-width: 1400px) {

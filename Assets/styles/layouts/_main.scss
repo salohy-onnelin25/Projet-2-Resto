@@ -472,6 +472,9 @@ main {
                 @media (max-width: 1400px) {
                     height: 450px;
                     padding: 10px;
+                    @media (max-width: 550px) {
+                            height: 480px;
+                        }
                 }
             }
             @media (max-width: 1730px) {
@@ -480,9 +483,7 @@ main {
                     bottom: -4450px;
                     @media (max-width: 900px) {
                         bottom: -4350px;
-                        @media (max-width: 550px) {
-                            bottom: -4450px;
-                        }
+                        
                     }
                 }
             }
