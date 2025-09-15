@@ -295,12 +295,12 @@ main .main-center .main-center2- {
 @media (max-width: 1730px) and (max-width: 900px) {
   main .main-center .main-center2- {
     height: 2000px;
+    top: 1550px;
   }
 }
 @media (max-width: 1730px) and (max-width: 900px) and (max-width: 550px) {
   main .main-center .main-center2- {
     height: 2150px;
-    top: 1550px;
   }
 }
 main .main-center .main-center2- .main-center2-0 {

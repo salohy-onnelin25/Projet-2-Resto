@@ -132,9 +132,9 @@ main {
                 height: 1250px;
                 @media (max-width: 900px) {
                     height: 2000px;
+                    top: 1550px;
                     @media (max-width: 550px) {
                         height: 2150px;
-                        top: 1550px;
                     }
                 }
             }
