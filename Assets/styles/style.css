@@ -582,6 +582,11 @@ main .main-center .main-center3 {
     height: 1200px;
   }
 }
+@media (max-width: 1300px) and (max-width: 550px) {
+  main .main-center .main-center3 {
+    height: 1100px;
+  }
+}
 main .main-center .main-center3 .main-center30 {
   width: 70%;
   display: grid;

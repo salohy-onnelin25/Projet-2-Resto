@@ -314,6 +314,9 @@ main {
             flex-direction: column;
             @media (max-width: 1300px) {
                 height: 1200px;
+                @media (max-width: 550px){
+                    height: 1100px;
+                }
             }
 
             .main-center30 {
@@ -483,7 +486,6 @@ main {
                     bottom: -4450px;
                     @media (max-width: 900px) {
                         bottom: -4350px;
-                        
                     }
                 }
             }
