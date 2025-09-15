@@ -247,14 +247,19 @@ main .main-center .main-center1 .main-center13 ul {
     -webkit-box-pack: space-evenly;
         -ms-flex-pack: space-evenly;
             justify-content: space-evenly;
-    gap: 10px;
-    width: 500px;
+    gap: 20px;
+    width: 100%;
   }
 }
 main .main-center .main-center1 .main-center13 ul a {
   font-size: 1.5rem;
   border-bottom: 1px solid white;
   padding-bottom: 5px;
+}
+@media (max-width: 1050px) {
+  main .main-center .main-center1 .main-center13 ul a {
+    font-size: 1.2rem;
+  }
 }
 main .main-center .main-center2 {
   height: 600px;
@@ -566,6 +571,11 @@ main .main-center .main-center3 {
       -ms-flex-direction: column;
           flex-direction: column;
 }
+@media (max-width: 1300px) {
+  main .main-center .main-center3 {
+    height: 1200px;
+  }
+}
 main .main-center .main-center3 .main-center30 {
   width: 70%;
   display: grid;
@@ -659,14 +669,14 @@ main .main-center .main-center3 .main-center30 .main-center32 .main-center321 .m
   font-family: Allura, serif;
 }
 main .main-center .main-center3 .main-center30 .main-center32 .main-center321 .main-center3212 {
-  height: 50px;
-  width: 50px;
+  height: 100px;
+  width: 50%;
   background: url(../imgs/ic-plate.png) center/cover;
   margin: 0 auto;
 }
 @media (max-width: 1300px) {
   main .main-center .main-center3 .main-center30 .main-center32 .main-center321 .main-center3212 {
-    height: 100px;
+    width: 50%;
   }
 }
 main .main-center .main-center3 .main-center30 .main-center32 .main-center321 .main-center3213 {
@@ -744,6 +754,11 @@ main .main-center .main-center4 .main-center41 {
   gap: 20px;
   margin-bottom: 50px;
 }
+@media (max-width: 900px) {
+  main .main-center .main-center4 .main-center41 {
+    display: none;
+  }
+}
 main .main-center .main-center4 .main-center41 .main-center411 {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -796,6 +811,13 @@ main .main-center .main-center5- {
 @media (max-width: 780px) {
   main .main-center .main-center5- {
     height: 550px;
+    width: 77%;
+  }
+}
+@media (max-width: 780px) and (max-width: 1400px) {
+  main .main-center .main-center5- {
+    height: 450px;
+    padding: 10px;
   }
 }
 @media (max-width: 1730px) {
@@ -803,9 +825,14 @@ main .main-center .main-center5- {
     bottom: -4000px;
   }
 }
-@media (max-width: 1730px) and (max-width: 900px) {
+@media (max-width: 1730px) and (max-width: 1300px) {
   main .main-center .main-center5- {
-    bottom: -4750px;
+    bottom: -4450px;
+  }
+}
+@media (max-width: 1730px) and (max-width: 1300px) and (max-width: 900px) {
+  main .main-center .main-center5- {
+    bottom: -4350px;
   }
 }
 @media (max-width: 1400px) {
@@ -874,6 +901,11 @@ main .main-center .main-center5 {
           flex-direction: column;
   gap: 20px;
   height: 700px;
+}
+@media (max-width: 900px) {
+  main .main-center .main-center5 {
+    display: none;
+  }
 }
 main .main-center .main-center5 .main-center51 {
   display: grid;
