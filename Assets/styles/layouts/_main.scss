@@ -2,7 +2,7 @@ main {
     .main-top {
         display: grid;
         grid-template-columns: 50% 50%;
-        @media (max-width: 1020px){
+        @media (max-width: 1020px) {
             display: flex;
         }
         .main-top1 {
@@ -90,7 +90,13 @@ main {
                     gap: 20px;
                     width: 1000px;
                     justify-content: space-between;
-                    
+                    @media (max-width: 1050px) {
+                        display: flex;
+                        justify-content: space-evenly;
+                        gap: 10px;
+                        width: 500px;
+                    }
+
                     a {
                         font-size: 1.5rem;
                         border-bottom: 1px solid $white;
@@ -103,20 +109,38 @@ main {
             height: 600px;
             width: 100%;
             background: url(../imgs/bg-menu-01.jpg) center/cover;
+            @media (max-width: 1730px) {
+                height: 1300px;
+            }
+            @media (max-width: 900px) {
+                height: 1950px;
+            }
         }
         .main-center2- {
             height: 650px;
             width: 60%;
             background: $white;
             position: absolute;
-            top: 1550px;
+            top: 1650px;
             left: 50%;
             transform: translate(-50%);
             padding: 20px;
+            @media (max-width: 1730px) {
+                height: 1250px;
+            }
+            @media (max-width: 900px) {
+                height: 2000px;
+            }
             .main-center2-0 {
                 display: flex;
                 flex-direction: row;
                 gap: 10px;
+                @media (max-width: 1730px) {
+                    display: flex;
+                    flex-direction: column;
+                }
+                @media (max-width: 900px) {
+                }
 
                 .main-center2-01 {
                     display: flex;
@@ -129,6 +153,11 @@ main {
                         border-bottom: 1px dashed $brown;
                         padding-bottom: 10px;
                         gap: 10px;
+                        @media (max-width: 900px) {
+                            display: flex;
+                            flex-direction: column;
+                            text-align: center;
+                        }
                         .main-center2-0111 {
                             height: 100px;
                             width: 100px;
@@ -142,6 +171,11 @@ main {
                         border-bottom: 1px dashed $brown;
                         padding-bottom: 10px;
                         gap: 10px;
+                        @media (max-width: 900px) {
+                            display: flex;
+                            flex-direction: column;
+                            text-align: center;
+                        }
                         .main-center2-0121 {
                             height: 100px;
                             width: 100px;
@@ -155,6 +189,11 @@ main {
                         border-bottom: 1px dashed $brown;
                         padding-bottom: 10px;
                         gap: 10px;
+                        @media (max-width: 900px) {
+                            display: flex;
+                            flex-direction: column;
+                            text-align: center;
+                        }
                         .main-center2-0131 {
                             height: 100px;
                             width: 100px;
@@ -168,6 +207,11 @@ main {
                         border-bottom: 1px dashed $brown;
                         padding-bottom: 10px;
                         gap: 10px;
+                        @media (max-width: 900px) {
+                            display: flex;
+                            flex-direction: column;
+                            text-align: center;
+                        }
                         .main-center2-0141 {
                             height: 100px;
                             width: 100px;
@@ -186,11 +230,15 @@ main {
                         border-bottom: 1px dashed $brown;
                         padding-bottom: 10px;
                         gap: 10px;
+                        @media (max-width: 900px) {
+                            display: flex;
+                            flex-direction: column;
+                            text-align: center;
+                        }
                         .main-center2-0211 {
                             height: 100px;
                             width: 100px;
                             background: url(../imgs/dish-item-05.jpg) center / cover;
-
                         }
                     }
                     .main-center2-022 {
@@ -200,6 +248,11 @@ main {
                         border-bottom: 1px dashed $brown;
                         padding-bottom: 10px;
                         gap: 10px;
+                        @media (max-width: 900px) {
+                            display: flex;
+                            flex-direction: column;
+                            text-align: center;
+                        }
                         .main-center2-0221 {
                             height: 100px;
                             width: 100px;
@@ -213,6 +266,11 @@ main {
                         border-bottom: 1px dashed $brown;
                         padding-bottom: 10px;
                         gap: 10px;
+                        @media (max-width: 900px) {
+                            display: flex;
+                            flex-direction: column;
+                            text-align: center;
+                        }
                         .main-center2-0231 {
                             height: 100px;
                             width: 100px;
@@ -226,6 +284,11 @@ main {
                         border-bottom: 1px dashed $brown;
                         padding-bottom: 10px;
                         gap: 10px;
+                        @media (max-width: 900px) {
+                            display: flex;
+                            flex-direction: column;
+                            text-align: center;
+                        }
                         .main-center2-0241 {
                             height: 100px;
                             width: 100px;
@@ -247,7 +310,10 @@ main {
                 width: 70%;
                 display: grid;
                 grid-template-columns: 30% 70%;
-
+                @media (max-width: 1300px) {
+                    display: flex;
+                    flex-direction: column;
+                }
                 .main-center31 {
                     display: flex;
                     flex-direction: column;
@@ -289,6 +355,7 @@ main {
                         display: flex;
                         flex-direction: column;
                         gap: 20px;
+
                         .main-center3211 {
                             text-align: center;
                             h3 {
@@ -301,12 +368,19 @@ main {
                             width: 50px;
                             background: url(../imgs/ic-plate.png) center/cover;
                             margin: 0 auto;
+                            @media (max-width: 1300px) {
+                                height: 100px;
+                            }
                         }
                         .main-center3213 {
                             display: flex;
                             flex-direction: row;
                             align-items: center;
                             gap: 40px;
+                            @media (max-width: 1300px) {
+                                display: flex;
+                                flex-direction: column;
+                            }
                             select {
                                 border: none;
                                 border-bottom: 1px solid $black;
@@ -381,6 +455,21 @@ main {
             justify-content: center;
             align-items: center;
             padding: 20px;
+            @media (max-width: 780px) {
+                height: 550px;
+            }
+
+            @media (max-width: 1730px) {
+                bottom: -4000px;
+                @media (max-width: 900px) {
+                    bottom: -4750px;
+                }
+            }
+            @media (max-width: 1400px) {
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+            }
             .main-center5-- {
                 height: 100px;
                 width: 100px;
@@ -395,12 +484,18 @@ main {
                 flex-direction: column;
                 align-items: center;
                 gap: 50px;
+                @media (max-width: 1400px) {
+                    gap: 20px;
+                }
 
                 .main-center5-01 {
                     text-align: center;
                 }
                 p {
                     font-size: 1.5rem;
+                    @media (max-width: 1400px) {
+                        font-size: 1.2rem;
+                    }
                 }
             }
         }

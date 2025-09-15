@@ -12,14 +12,15 @@ header {
         padding: 20px;
         display: flex;
         justify-content: space-between;
-        
+        .header-top2{
+            @media (max-width: 1030px){
+                display: none;
+            }
+        }
        
         @media (max-width: 1030px) {
             display: flex;
             justify-content: space-between
-            .header-top2{
-                display: none;
-            }
         }
         h1 {
             color: $white;

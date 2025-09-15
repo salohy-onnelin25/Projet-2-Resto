@@ -9,7 +9,7 @@ footer {
         flex-direction: row;
         align-items: center;
         padding: 0 40px;
-        @media (max-width: 1140px){
+        @media (max-width: 1140px) {
             display: none;
         }
         .footer-left0 {
@@ -34,6 +34,7 @@ footer {
         flex-direction: row;
         align-items: center;
         padding: 0 40px;
+        
         .footer-right0 {
             width: 100%;
             .footer-right01 {
