@@ -101,7 +101,7 @@ main {
                         font-size: 1.5rem;
                         border-bottom: 1px solid $white;
                         padding-bottom: 5px;
-                        @media (max-width: 1050px){
+                        @media (max-width: 1050px) {
                             font-size: 1.2rem;
                         }
                     }
@@ -130,10 +130,15 @@ main {
             padding: 20px;
             @media (max-width: 1730px) {
                 height: 1250px;
+                @media (max-width: 900px) {
+                    height: 2000px;
+                    @media (max-width: 550px) {
+                        height: 2100px;
+                        top: 1550px;
+                    }
+                }
             }
-            @media (max-width: 900px) {
-                height: 2000px;
-            }
+
             .main-center2-0 {
                 display: flex;
                 flex-direction: row;
@@ -144,7 +149,6 @@ main {
                 }
                 @media (max-width: 900px) {
                 }
-
                 .main-center2-01 {
                     display: flex;
                     flex-direction: column;
@@ -465,7 +469,7 @@ main {
             @media (max-width: 780px) {
                 height: 550px;
                 width: 77%;
-                @media (max-width: 1400px){
+                @media (max-width: 1400px) {
                     height: 450px;
                     padding: 10px;
                 }
@@ -476,6 +480,9 @@ main {
                     bottom: -4450px;
                     @media (max-width: 900px) {
                         bottom: -4350px;
+                        @media (max-width: 550px) {
+                            bottom: -4450px;
+                        }
                     }
                 }
             }
